@@ -9,15 +9,15 @@ The analysis uses the luggage dataset and PySpark to perform the ETL process to 
 
 Overall there were 6711 luggage reviews.  Of that, 51.5% of the reviews (3458) were five star reviews.
 
-![all]()
+![all](https://github.com/ryanmorin/amazon_vine_analysis/blob/main/all.png)
 
 Most of the reviews are not associated with the Vine program (6690). The percentage of five star reviews was essentially the same as the overall average.
 
-![not-vine]()
+![not-vine](https://github.com/ryanmorin/amazon_vine_analysis/blob/main/vine.png)
 
 Very few of the reviews were affiliated with the vine program (21).  The percentage of five star reviews was lower than the overall.  47.6% of the vine reviews were scored as five stars.
 
-![vine]()
+![vine](https://github.com/ryanmorin/amazon_vine_analysis/blob/main/vine_y.png)
 
 ## Summary
 
