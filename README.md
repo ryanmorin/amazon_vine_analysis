@@ -25,6 +25,6 @@ There doesn't appear to be any positivity bias regarding the vine reviews.  The 
 
 
 ### pgAdmin loaded data screen shots
-![](https://github.com/ryanmorin/amazon_vine_analysis/blob/main/customers_table.png width="50",height="50")
+![](https://github.com/ryanmorin/amazon_vine_analysis/blob/main/customers_table.png|width=50px,height=50px)
 
 
