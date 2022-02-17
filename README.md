@@ -3,7 +3,7 @@
 ## Purpose of the Analysis
 The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.
 
-The analysis uses the luggage dataset and PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin (see links at the bottom of the page for screen shots of the loaded data). Next, the analysis uses PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in your dataset. The analysis looks only at the number of 5 star ratings in the 'vine' and 'not vine' datasets. The dataset was further thinned down.  We filtered for those ratings where there were at least 20 votes for a product and the ratio of helpful_votes to total_votes was greater than 50%.
+The analysis uses the luggage dataset and PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin (see links at the bottom of the page for screen shots of the loaded data). Next, the analysis uses PySpark & Pandas to determine if there is any bias toward favorable reviews from Vine members in the dataset. The analysis looks only at the number of 5 star ratings in the 'vine' and 'non-vine' datasets. The dataset was further thinned down as follows; we filtered for those ratings where there were at least 20 votes for a product and the ratio of helpful_votes to total_votes was greater than 50%.
 
 ## Results
 
